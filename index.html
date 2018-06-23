@@ -2,25 +2,20 @@
 	<head>
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+	<script src="navbar.js"></script>
 	</head>
 	<body class="index">
-		<div id="menu">
-			<a href="/">
-				<img src="images/home.jpg" />
-			</a>
-			<a href="books/books.html">
-				<img src="images/book1.jpg" />
-			</a>
-			<a href="houses/houses.html">
-				<img src="images/crest.png" />
-			</a>
-			<a href="folk/folk.html">
-				<img src="images/ginny.jpg" />
-			</a>
-			<a href="creatures/creatures.html">
-				<img src="images/fawkes.jpg" />
-			</a>
-		</div>
+
+<!-- ***** MENU ***** MENU ***** MENU ***** MENU ***** MENU ***** -->
+<header>
+	<nav id="navbar"></nav>
+	<script>
+		document.querySelector('#navbar').innerHTML = hermione.navbar;
+	</script>
+</header>
+<!-- ***** CONTENT ***** CONTENT ***** CONTENT ***** CONTENT ***** -->
+
+		
 		<h1>Harry Potter
 		</h1>
 		<img src="images/harry.jpg"
