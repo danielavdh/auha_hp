@@ -1,53 +1,51 @@
-<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="content-script-type" content="text/javascript" />
-  <meta http-equiv="content-style-type" content="text/css" />
-  <meta http-equiv="content-language" content="en" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="language" content="en" />
-  <meta name="description" content="Hermione Lovelace's Harry Potter tribute" />
-  <meta name= "keywords" content="Harry Potter" />
-  <meta name="author" content="wwwebsites" />
-  <meta name="copyright" content="2016, wwwebsites" />
-  <title>Hermione's Harry Potter tribute</title>
-	<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
-  <link rel="stylesheet" media="all" href="stylesheets/style.css" />
-	<script src="https://get.mavo.io/mavo.min.js"></script>
-	<script src="navbar.js"></script>
-</head>
-
-<body class="home">
-	
-<!-- ***** MENU ***** MENU ***** MENU ***** MENU ***** MENU ***** -->
-
-<header>
-	<nav id="navbar"></nav>
-	<script>
-		document.querySelector('#navbar').innerHTML = hermione.navbar;
-	</script>
-</header>
-
-<!-- ***** CONTENT ***** CONTENT ***** CONTENT ***** CONTENT ***** -->
-
-	<h1>Welcome to Hermione's Harry Potter tribute! It is great!</h1>
-	
-	<div mv-app="mavoTest">
-			<p>Slider value: [strength]/100</p>
-			<input type="range" property="strength" title="[strength]%" />
-
-		<div mv-storage="local"
-		     style="background-color: [color]; padding: 1vw">
-		    <input type="range" property="hue" max="360" />
-		    <input type="range" property="saturation" />
-		    <input type="range" property="lightness" />
-		
-		    <input property="color" readonly
-		           value="hsl([hue], [saturation]%, [lightness]%)" />
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+	</head>
+	<body class="index">
+		<div id="menu">
+			<a href="books/books.html">
+				<img src="images/book1.jpg" />
+			</a>
+			<a href="houses/houses.html">
+				<img src="images/crest.png" />
+			</a>
+			<a href="folk/folk.html">
+				<img src="images/ginny.jpg" />
+			</a>
+			<a href="creatures/creatures.html">
+				<img src="images/fawkes.jpg" />
+			</a>
 		</div>
-	</div>	
-
-
-</body>
+		<h1>Harry Potter
+		</h1>
+		<img src="images/harry.jpg"
+			   id="harry" />
+		<div id="facts">
+			<h2>
+				Facts!
+			</h2>
+			<ul>
+				<li>j.k rowling and Harry Potter share a birthday
+				</li>
+				<li>she invented the names of the Hogwarts houses on an aroplane sick bag
+				</li>
+				<li>The dementors are based on J.K rowlings strugle after her mothers death
+				</li>
+				<li>She created Quidditch after a fight with her boyfriend
+				</li>
+				<li>The wizarding worlds plants come from a real book
+				</li>
+				<li>Authur weasly was supposed to die
+				</li>
+				<li>To keep Deathly Hallows from leaking early, bloomsbury gave it code names
+				</li>
+				<li>there is a very good reason harry's eyes aren't green in the movie
+				</li>
+				<li>The actors could not play contact sports
+				</li>
+			</ul>
+		</div>
+	</body>
 </html>

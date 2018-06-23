@@ -1,0 +1,64 @@
+body{
+	font-family: 'Abril Fatface', cursive;
+	font-size:1.5vw;
+	box-sizing:border-box;
+}
+div#menu{
+	position:absolute;
+	width:10vw;
+}
+div#menu img{
+	width:100%;
+}
+div#menu a:hover{
+	opacity: 0.75;
+}
+/**************** INDEX ***********************/
+body.index{
+	background-image: url("../images/hogwarts.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+body.index h1{
+	font-size:200%;
+	color:aqua;
+	text-shadow:3px 2px blue;
+	text-align:center;
+	padding-top:2vw;
+}
+body.index img#harry{
+	width:20vw;
+	margin-left:75vw;
+}
+body.index div#facts{
+	color:white;
+	width:30vw;
+	margin-left:35vw;
+	margin-top:-10vw;
+}
+body.index div ul{
+	font-size:75%;
+}
+body.index div h2{
+	text-align:center;
+}
+/**************** BOOKS ***********************/
+body.books{
+	
+}
+body.books table{
+	width:88vw;
+	margin-left:12vw;
+	border-collapse: collapse;
+}
+body.books tr td{
+	width:10vw;
+	padding:0.5vw;
+	border:0.2vw solid gold;
+}
+body.books tr td:nth-of-type(4){
+	width:58vw;
+}
+body.books td img{
+	width:100%;
+}
