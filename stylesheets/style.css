@@ -3,15 +3,19 @@ body{
 	font-size:1.5vw;
 	box-sizing:border-box;
 }
-div#menu{
+#navbar{
 	position:absolute;
 	width:10vw;
 }
-div#menu img{
+#navbar img{
 	width:100%;
 }
-div#menu a:hover{
+#navbar a:hover{
 	opacity: 0.75;
+}
+div.main{
+	width: 88vw;
+	margin-left:12vw;
 }
 /**************** INDEX ***********************/
 body.index{
@@ -47,8 +51,7 @@ body.books{
 	
 }
 body.books table{
-	width:88vw;
-	margin-left:12vw;
+	width:100%;
 	border-collapse: collapse;
 }
 body.books tr td{

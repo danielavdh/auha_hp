@@ -1,36 +1,32 @@
 var hermione={
-		navbar: '<div id="menu">\
-			<a href="/">\
+		navbar: '<a href="/">\
 				<img src="images/home.jpg" />\
 			</a>\
-			<a href="books/books.html">\
+			<a href="books/">\
 				<img src="images/book1.jpg" />\
 			</a>\
-			<a href="houses/houses.html">\
+			<a href="houses/">\
 				<img src="images/crest.png" />\
 			</a>\
-			<a href="folk/folk.html">\
+			<a href="folk/">\
 				<img src="images/ginny.jpg" />\
 			</a>\
-			<a href="creatures/creatures.html">\
+			<a href="creatures/">\
 				<img src="images/fawkes.jpg" />\
-			</a>\
-		</div>',
-		navbar1: '<div id="menu">\
-			<a href="/">\
+			</a>',
+		navbar1: '<a href="/">\
 				<img src="../images/home.jpg" />\
 			</a>\
-			<a href="../books/books.html">\
+			<a href="../books/">\
 				<img src="../images/book1.jpg" />\
 			</a>\
-			<a href="../houses/houses.html">\
+			<a href="../houses/">\
 				<img src="../images/crest.png" />\
 			</a>\
-			<a href="../folk/folk.html">\
+			<a href="../folk/">\
 				<img src="../images/ginny.jpg" />\
 			</a>\
-			<a href="../creatures/creatures.html">\
+			<a href="../creatures/">\
 				<img src="../images/fawkes.jpg" />\
-			</a>\
-		</div>'
+			</a>'
 }
