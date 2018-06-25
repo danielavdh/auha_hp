@@ -8,10 +8,21 @@ body{
 	width:10vw;
 }
 #navbar img{
-	width:100%;
+	width:10vw;
+	height:10vw;
+}
+#navbar a{
+	display:inline-block;
+	width:10vw;
+	height:10vw;
+	border-style:dotted solid;
+  border-width:0.25vw;
+	border-color:aquamarine cyan;
 }
 #navbar a:hover{
 	opacity: 0.75;
+	border-color:HoneyDew #6495ED;
+	border-style:solid dotted;
 }
 div.main{
 	width: 88vw;
@@ -64,4 +75,48 @@ body.books tr td:nth-of-type(4){
 }
 body.books td img{
 	width:100%;
+}
+/**************** houses ***********************/
+body.houses{
+	color:white;
+	background-color:black;
+}
+body.houses table{
+	width:100%;
+	border-collapse: collapse;
+}
+body.houses tr td{
+	width:10vw;
+	padding:0.5vw;
+	border:0.2vw solid gold;
+}
+body.houses tr td:nth-of-type(4){
+	width:58vw;
+}
+body.houses td img{
+	width:100%;
+}
+/**************** folk ***********************/
+body.folk{
+}
+body.folk table{
+	width:100%;
+	border-collapse: collapse;
+}
+body.folk tr td{
+	width:10vw;
+	padding:0.5vw;
+	border:0.2vw solid gold;
+}
+body.folk tr td:nth-of-type(4){
+	width:20vw;
+}
+body.folk td img{
+	width:100%;
+}
+body.folk tr td:nth-of-type(6){
+	text-align:center;
+}
+body.folk tr td:nth-of-type(6) img{
+	width:66%;
 }
