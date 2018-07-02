@@ -98,6 +98,8 @@ body.houses td img{
 }
 /**************** folk ***********************/
 body.folk{
+	background-color:navy;
+	color:gold;
 }
 body.folk table{
 	width:100%;
@@ -122,6 +124,8 @@ body.folk tr td:nth-of-type(6) img{
 }
 /**************** creatures ***********************/
 body.creatures{
+	background-color:firebrick;
+	color:aliceblue;
 }
 body.creatures table{
 	width:100%;
@@ -138,9 +142,9 @@ body.creatures tr td:nth-of-type(4){
 body.creatures td img{
 	width:100%;
 }
-body.creatures tr td:nth-of-type(6){
+body.creatures tr td:nth-of-type(3){
 	text-align:center;
 }
-body.creatures tr td:nth-of-type(6) img{
+body.creatures tr td:nth-of-type(3) img{
 	width:66%;
 }
