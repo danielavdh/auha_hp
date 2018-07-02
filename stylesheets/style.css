@@ -120,3 +120,27 @@ body.folk tr td:nth-of-type(6){
 body.folk tr td:nth-of-type(6) img{
 	width:66%;
 }
+/**************** creatures ***********************/
+body.creatures{
+}
+body.creatures table{
+	width:100%;
+	border-collapse: collapse;
+}
+body.creatures tr td{
+	width:10vw;
+	padding:0.5vw;
+	border:0.2vw solid gold;
+}
+body.creatures tr td:nth-of-type(4){
+	width:20vw;
+}
+body.creatures td img{
+	width:100%;
+}
+body.creatures tr td:nth-of-type(6){
+	text-align:center;
+}
+body.creatures tr td:nth-of-type(6) img{
+	width:66%;
+}
