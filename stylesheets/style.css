@@ -28,6 +28,9 @@ div.main{
 	width: 88vw;
 	margin-left:12vw;
 }
+div.main a img:hover{
+	opacity:0.5;
+}
 /**************** INDEX ***********************/
 body.index{
 	background-image: url("../images/hogwarts.jpg");
@@ -76,6 +79,55 @@ body.books tr td:nth-of-type(4){
 body.books td img{
 	width:100%;
 }
+/**************** BOOK1 ***********************/
+body.book1{
+	background-image:url("../images/books/book1-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK2 ***********************/
+body.book2{
+	background-image:url("../images/books/book2-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK3 ***********************/
+body.book3{
+	background-image:url("../images/books/book3-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK4 ***********************/
+body.book4{
+	background-image:url("../images/books/book4-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK5 ***********************/
+body.book5{
+	background-image:url("../images/books/book5-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK6 ***********************/
+body.book6{
+	background-image:url("../images/books/book6-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** BOOK7 ***********************/
+body.book7{
+	background-image:url("../images/books/book7-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
 /**************** houses ***********************/
 body.houses{
 	color:white;
@@ -95,6 +147,34 @@ body.houses tr td:nth-of-type(4){
 }
 body.houses td img{
 	width:100%;
+}
+/**************** Gryffindor ***********************/
+body.gryffindor{
+	background-image:url("../images/houses/g-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** ravenclaw ***********************/
+body.ravenclaw{
+	background-image:url("../images/houses/r-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** slytherin ***********************/
+body.slytherin{
+	background-image:url("../images/houses/s-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+/**************** hufflepuff ***********************/
+body.hufflepuff{
+	background-image:url("../images/houses/h-bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
 }
 /**************** folk ***********************/
 body.folk{
