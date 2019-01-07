@@ -47,7 +47,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/harry.jpg" />
 						</td>
 						<td>Harry Potter
@@ -65,7 +65,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/hermione.jpg" />
 						</td>
 						<td>Hermione Granger
@@ -83,7 +83,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/ron.jpg" />
 						</td>
 						<td>Ron Weasley
@@ -101,7 +101,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/ginny.jpg" />
 						</td>
 						<td>Ginny Weasley
@@ -119,7 +119,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/draco.jpg" />
 						</td>
 						<td>Draco Malfoy
@@ -137,7 +137,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/albus.jpg" />
 						</td>
 						<td>Albus Dumbledore
@@ -155,7 +155,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/fred.jpg" />
 						</td>
 						<td>Fred Weasley
@@ -173,7 +173,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/george.jpg" />
 						</td>
 						<td>George Weasley
@@ -191,7 +191,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/voldemort.png" />
 						</td>
 						<td>Tom Marvolo Riddel or Lord Voldemort
@@ -209,7 +209,7 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<td class="profile">
 							<img src="../images/folk/luna.jpg" />
 						</td>
 						<td>Luna Lovegood
@@ -228,6 +228,16 @@
 					</tr>
 				</tbody>				
 			</table>
+			<div id="profileDiv">
+				<p id="closeBtn">X</p>
+				Hi I'm a profile
+			</div>
 		</div>
+	<script>
+		hermione.keys = Array.from(document.querySelectorAll(".profile"));
+		hermione.keys.forEach(key => key.addEventListener("click", hermione.showProfile));
+		hermione.closeBtn = document.getElementById("closeBtn");
+		hermione.closeBtn.addEventListener("click", hermione.hideProfile);
+	</script>	
 	</body>
 </html>

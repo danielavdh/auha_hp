@@ -202,6 +202,33 @@ body.folk tr td:nth-of-type(6){
 body.folk tr td:nth-of-type(6) img{
 	width:66%;
 }
+body.folk tr td.profile{
+  cursor: pointer ;	
+}
+body.folk tr td.profile:hover{
+	opacity: 0.75;
+	border-color:HoneyDew #6495ED;
+	border-style:solid dotted;
+}
+body.folk div.main div#profileDiv{
+	position:absolute;
+	left:25vw;
+	top:5vw;
+	width:60vw;
+	height:65vw;
+	background-color:#e8f7ff;
+	display:none;
+}
+body.folk #closeBtn{
+	position:absolute;
+	right:2vw;
+	top:0vw;
+	color:black;
+	font-size:200%;
+	padding:0 1vw;
+	border:0.1vw solid black;
+	cursor:pointer;
+}
 /**************** creatures ***********************/
 body.creatures{
 	background-color:firebrick;

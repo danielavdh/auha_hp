@@ -36,5 +36,15 @@ var hermione={
 			<a href="../creatures/"\
 				 title="magical creatures">\
 				<img src="../images/fawkes.jpg" />\
-			</a>'
+			</a>',
+	keys: {},
+	closeBtn: {},
+	showProfile: function(){
+		var profileDiv = document.getElementById("profileDiv");
+		profileDiv.style.display="block";
+	},
+	hideProfile: function(){
+		var profileDiv = document.getElementById("profileDiv");
+		profileDiv.style.display="none";		
+	}
 }
